@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Campus Life at USC</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 0 20px;
+            scroll-behavior: smooth; /* Enable smooth scrolling */
+        }
+
+        header {
+            background-color: #d50032; /* USC's cardinal red */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Sticky Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #f8bc00; /* USC's gold */
+            padding: 10px 0;
+            text-align: center;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #ff6f00;
+        }
+
+        /* Main Content Section */
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .main-content .section {
+            background-color: #fff;
+            padding: 20px;
+            width: 48%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .main-content .section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .main-content .section p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #d50032; /* USC's cardinal red */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #d50032; /* USC's cardinal red */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #ff6f00;
+        }
+
+        /* Social Media Icons */
+        .social-icons a {
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .social-icons a:hover {
+            color: #ddd;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .main-content .section {
+                width: 80%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Campus Life at USC</h1>
+        <p>Explore events, student activities, and resources at the University of Southern California</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#student-life">Student Life</a>
+        <a href="#campus-events">Campus Events</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="home" class="main-content">
+        <div class="section">
+            <h2>About USC</h2>
+            <p>The University of Southern California is a vibrant, dynamic institution with a rich history. Our campus is a place of academic excellence, cutting-edge research, and diverse student engagement. It’s a place where students from around the world come together to create lasting connections and lifelong memories.</p>
+        </div>
+        <div class="section">
+            <h2>Campus Events</h2>
+            <p>USC hosts a wide variety of events throughout the year, including cultural festivals, sporting events, guest lectures, and academic conferences. There's always something exciting happening on campus, and you're invited to participate!</p>
+        </div>
+    </div>
+
+    <!-- Student Life Section -->
+    <div id="student-life" class="main-content">
+        <div class="section">
+            <h2>Student Organizations</h2>
+            <p>At USC, we have over 1,000 student organizations that cater to a wide range of interests—from academic clubs to community service, arts, sports, and more. Get involved, make new friends, and enhance your college experience!</p>
+        </div>
+        <div class="section">
+            <h2>Student Services</h2>
+            <p>USC provides a variety of student services to ensure your success, from career counseling and academic advising to mental health support and financial aid. We're here to help you every step of the way.</p>
+        </div>
+    </div>
+
+    <!-- Campus Events Section -->
+    <div id="campus-events" class="main-content">
+        <div class="section">
+            <h2>Upcoming Events</h2>
+            <p>USC is home to exciting events such as the annual Homecoming celebration, live performances by student groups, sports tournaments, and cultural activities. Stay tuned for our calendar of events!</p>
+        </div>
+        <div class="section">
+            <h2>Past Events</h2>
+            <p>Explore some of our past events, including guest speakers, theater productions, and concerts. USC's event calendar is full of activities that bring together students, faculty, and the greater Los Angeles community.</p>
+        </div>
+    </div>
+
+    <!-- Resources Section -->
+    <div id="resources" class="main-content">
+        <div class="section">
+            <h2>Academic Resources</h2>
+            <p>USC offers a wide array of academic resources to support student success. Whether you need tutoring, research assistance, or access to our vast library system, we've got you covered.</p>
+        </div>
+        <div class="section">
+            <h2>Campus Facilities</h2>
+            <p>From our state-of-the-art fitness center and library to collaborative study spaces and art studios, USC provides the facilities you need to thrive both academically and personally.</p>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div id="contact" class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message (inquiries, event suggestions, etc.)" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Social Media Icons -->
+    <footer>
+        <p>&copy; 2024 University of Southern California. All Rights Reserved.</p>
+        <div class="social-icons">
+            <!-- Replace '#' with actual links to USC's social media -->
+            <a href="https://www.facebook.com/USC" title="Facebook" target="_blank">FB</a>
+            <a href="https://twitter.com/USC" title="Twitter" target="_blank">TW</a>
+            <a href="https://www.instagram.com/usc/" title="Instagram" target="_blank">IG</a>
+            <a href="https://www.linkedin.com/school/university-of-southern-california/" title="LinkedIn" target="_blank">LI</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
